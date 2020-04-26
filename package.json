@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "node build/db.js",
-    "dev": "nodemon lib/index.js"
+    "prepareDb": "node build/db.js",
+    "dev": "nodemon",
+    "start": "pm2 start ecosystem.config.js --env production",
+    "stop": "pm2 stop ecosystem.config.js --env production"
   },
   "keywords": [],
   "author": "",

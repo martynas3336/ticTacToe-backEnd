@@ -18,6 +18,7 @@ Promise.all([
     table.string('id', 36).primary();
     table.string('tileId', 255).notNullable();
     table.string('main', 255).notNullable();
+    table.datetime('createdAt').notNullable();
   }),
 
   // tile table
