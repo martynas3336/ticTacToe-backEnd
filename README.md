@@ -15,6 +15,18 @@ docker exec -it tictactoebackend_api_1 sh
 5. Install dependencies with `npm install`.  
 6. Start the application with `npm run start`.
 
+## Quick Installation
+
+```
+git clone https://github.com/martynas3336/ticTacToe-backEnd.git
+cd ticTacToe-backEnd
+docker-compose up -d
+docker exec -it tictactoebackend_api_1 sh
+npm install
+npm run start
+exit
+```
+
 ## Endpoints
 
 ### Get tiles / create new tiles
