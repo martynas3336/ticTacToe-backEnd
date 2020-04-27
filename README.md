@@ -11,7 +11,8 @@ This is the api of Tic Tac Toe game created with the help of `express`, `knex` a
 docker-compose up -d
 docker exec -it tictactoe-backend_api_1 sh
 ```
-4. Start the application with `npm run start`.
+4. Install dependencies with `npm install`.  
+5. Start the application with `npm run start`.
 
 ## Endpoints
 
