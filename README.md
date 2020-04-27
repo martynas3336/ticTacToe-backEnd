@@ -33,7 +33,7 @@ docker exec -it server_api_1 sh
 - **URL**  
   /api/tiles/reset
 - **Method**  
-  GET
+  POST
 - **Header Params**  
   **Optional:**  
   Auth=[string]
@@ -46,7 +46,7 @@ docker exec -it server_api_1 sh
 - **URL**  
   /api/tiles/clickTile/:_i
 - **Method**  
-  GET
+  POST
 - **Header Params**  
   **Optional:**  
   Auth=[string]
