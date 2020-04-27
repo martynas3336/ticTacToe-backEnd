@@ -4,15 +4,16 @@
 This is the api of Tic Tac Toe game created with the help of `express`, `knex` and `mysql`. Its purpose is to save users game state, validate actions, log actions and return everything to the client side when needed. Api should never respond with an error code other than 404.
 
 ## Installation
-1. Clone this repository with `git clone`.
-2. Edit `docker-compose.yml` and edit `ports` per your need.
-3. Run docker.
+1. Clone this repository with `git clone https://github.com/martynas3336/ticTacToe-backEnd.git`.
+2. Cd into the cloned directory with `cd ticTacToe-backEnd`.
+3. Edit `docker-compose.yml` and edit `ports` per your need.
+4. Run docker.
 ```
 docker-compose up -d
-docker exec -it tictactoe-backend_api_1 sh
+docker exec -it tictactoebackend_api_1 sh
 ```
-4. Install dependencies with `npm install`.  
-5. Start the application with `npm run start`.
+5. Install dependencies with `npm install`.  
+6. Start the application with `npm run start`.
 
 ## Endpoints
 
