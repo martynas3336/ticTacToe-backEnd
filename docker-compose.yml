@@ -1,0 +1,15 @@
+version: '2'
+services:
+  api:
+    build: ./api-service
+    ports:
+     - "5020:5020"
+    depends_on:
+     - db
+    environment:
+     - DATABASE_HOST=db
+    volumes:
+    - ./api-service:/api
+    command: tail -f /dev/null
+  db:
+    build: ./database-service

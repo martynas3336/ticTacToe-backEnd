@@ -3,8 +3,9 @@
     "node_modules"
   ],
   "watch": [
-    "src"
+    "lib"
   ],
   "exec": "node lib/index.js",
-  "ext": "ts"
+  "legacyWatch": true,
+  "ext": "js"
 }
