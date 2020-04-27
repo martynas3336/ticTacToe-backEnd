@@ -1,7 +1,7 @@
 # Tic Tac Toe Back-End
 
 ## Summary
-This is the api of Tic Tac Toe game. Its purpose is to save users game state, validate actions, log actions and return everything to the client side when needed. Api should never respond with an error code other than 404.
+This is the api of Tic Tac Toe game created with the help of `express`. Its purpose is to save users game state, validate actions, log actions and return everything to the client side when needed. Api should never respond with an error code other than 404.
 
 ## Installation
 1. Clone this repository with `git clone`.
